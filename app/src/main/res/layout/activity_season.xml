@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Season">
+
+    <TextView
+        android:textSize="30sp"
+        android:textColor="#FF0000"
+        android:text="First quarter"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <View
+        android:layout_width="fill_parent"
+        android:layout_height="2dp"
+        android:background="#ff0000"/>
+    <RelativeLayout
+        android:layout_marginTop="15dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+        <TextView
+            android:gravity="center"
+            android:id="@+id/JAN"
+            android:layout_alignParentLeft="true"
+            android:background="#0000ff"
+            android:textSize="20sp"
+            android:textColor="#FFFFFF"
+            android:text="JAN"
+            android:layout_width="100dp"
+            android:layout_height="100dp" />
+        <ImageView
+            android:layout_toRightOf="@+id/JAN"
+            android:src="@drawable/spring"
+            android:scaleType="centerCrop"
+            android:layout_width="match_parent"
+            android:layout_height="100dp" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_marginTop="10dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+        <TextView
+            android:gravity="center"
+            android:id="@+id/FEB"
+            android:layout_alignParentLeft="true"
+            android:textAlignment="center"
+            android:background="#0000ff"
+            android:textSize="20sp"
+            android:textColor="#FFFFFF"
+            android:text="FEB"
+            android:layout_width="100dp"
+            android:layout_height="100dp" />
+        <ImageView
+            android:layout_toRightOf="@+id/FEB"
+            android:src="@drawable/summer"
+            android:scaleType="centerCrop"
+            android:layout_width="match_parent"
+            android:layout_height="100dp" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_marginTop="10dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+        <TextView
+            android:gravity="center"
+            android:id="@+id/MAR"
+            android:layout_alignParentLeft="true"
+            android:textAlignment="center"
+            android:background="#0000ff"
+            android:textSize="20sp"
+            android:textColor="#FFFFFF"
+            android:text="MAR"
+            android:layout_width="100dp"
+            android:layout_height="100dp" />
+        <ImageView
+            android:layout_toRightOf="@+id/MAR"
+            android:src="@drawable/winter"
+            android:scaleType="centerCrop"
+            android:layout_width="match_parent"
+            android:layout_height="100dp" />
+    </RelativeLayout>
+
+    <TextView
+        android:layout_marginTop="15dp"
+        android:textSize="30sp"
+        android:textColor="#FF0000"
+        android:text="Secound quarter"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <View
+        android:layout_width="fill_parent"
+        android:layout_height="2dp"
+        android:background="#ff0000"/>
+    <RelativeLayout
+        android:layout_marginTop="10dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+        <TextView
+            android:gravity="center"
+            android:id="@+id/APR"
+            android:layout_alignParentLeft="true"
+            android:textAlignment="center"
+            android:background="#0000ff"
+            android:textSize="20sp"
+            android:textColor="#FFFFFF"
+            android:text="APR"
+            android:layout_width="100dp"
+            android:layout_height="100dp" />
+        <ImageView
+            android:layout_toRightOf="@+id/APR"
+            android:src="@drawable/penguins"
+            android:scaleType="centerCrop"
+            android:layout_width="match_parent"
+            android:layout_height="100dp" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_marginTop="10dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+        <TextView
+            android:gravity="center"
+            android:id="@+id/MAY"
+            android:layout_alignParentLeft="true"
+            android:textAlignment="center"
+            android:background="#0000ff"
+            android:textSize="20sp"
+            android:textColor="#FFFFFF"
+            android:text="MAY"
+            android:layout_width="100dp"
+            android:layout_height="100dp" />
+        <ImageView
+            android:layout_toRightOf="@+id/MAY"
+            android:src="@drawable/tigers"
+            android:scaleType="centerCrop"
+            android:layout_width="match_parent"
+            android:layout_height="100dp" />
+    </RelativeLayout>
+
+</LinearLayout>
